@@ -1,0 +1,28 @@
+{
+  "name": "eda-slacker",
+  "version": "0.1.1",
+  "description": "An EDA message helper",
+  "repository": "https://github.com/kelly-keating/EDA_slacker.git",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "nodemon --watch server ",
+    "start": "node server/index",
+    "h:deploy": "git push heroku master",
+    "knex": "knex"
+  },
+  "author": "EDA",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "sqlite3": "^3.1.8"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.3",
+    "express": "^4.14.0",
+    "jsdom": "^11.0.0",
+    "nock": "^9.2.5",
+    "pg": "^6.2.3",
+    "superagent": "^2.2.0"
+  }
+}
